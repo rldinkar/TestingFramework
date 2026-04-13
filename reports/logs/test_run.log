@@ -1,0 +1,106 @@
+2026-04-12 23:43:18,527 INFO automation - Starting browser for test_add_to_cart_updates_badge_and_button
+2026-04-12 23:43:30,808 INFO automation - Starting browser for test_login_success
+2026-04-12 23:43:31,414 INFO automation - Tearing down browser for test_login_success
+2026-04-12 23:45:26,794 INFO automation - Starting browser for test_add_to_cart_updates_badge_and_button
+2026-04-12 23:45:32,495 INFO automation - Tearing down browser for test_add_to_cart_updates_badge_and_button
+2026-04-12 23:45:33,557 INFO automation - Starting browser for test_login_success
+2026-04-12 23:45:34,093 INFO automation - Tearing down browser for test_login_success
+2026-04-12 23:50:10,735 INFO automation - Starting browser for test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-12 23:50:11,576 INFO automation - Tearing down browser for test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-12 23:50:12,594 INFO automation - Starting browser for test_remove_item_from_cart_updates_badge_and_button
+2026-04-12 23:50:18,329 INFO automation - Tearing down browser for test_remove_item_from_cart_updates_badge_and_button
+2026-04-12 23:50:19,449 INFO automation - Starting browser for test_checkout_postal_code_is_required
+2026-04-12 23:50:20,310 INFO automation - Tearing down browser for test_checkout_postal_code_is_required
+2026-04-12 23:50:21,367 INFO automation - Starting browser for test_finish_order_shows_success_message
+2026-04-12 23:50:27,522 INFO automation - Saved failure screenshot: reports/screenshots/test_finish_order_shows_success_message.png
+2026-04-12 23:50:27,523 INFO automation - Tearing down browser for test_finish_order_shows_success_message
+2026-04-12 23:50:28,568 INFO automation - Starting browser for test_unauthorized_access_redirects_to_login_after_logout
+2026-04-12 23:50:34,958 INFO automation - Saved failure screenshot: reports/screenshots/test_unauthorized_access_redirects_to_login_after_logout.png
+2026-04-12 23:50:34,958 INFO automation - Tearing down browser for test_unauthorized_access_redirects_to_login_after_logout
+2026-04-12 23:50:59,491 INFO automation - Starting browser for test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-12 23:51:00,375 INFO automation - Tearing down browser for test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-12 23:51:01,390 INFO automation - Starting browser for test_remove_item_from_cart_updates_badge_and_button
+2026-04-12 23:51:12,613 INFO automation - Tearing down browser for test_remove_item_from_cart_updates_badge_and_button
+2026-04-12 23:51:13,661 INFO automation - Starting browser for test_checkout_postal_code_is_required
+2026-04-12 23:51:14,614 INFO automation - Tearing down browser for test_checkout_postal_code_is_required
+2026-04-12 23:51:15,650 INFO automation - Starting browser for test_finish_order_shows_success_message
+2026-04-12 23:51:16,733 INFO automation - Tearing down browser for test_finish_order_shows_success_message
+2026-04-12 23:51:17,908 INFO automation - Starting browser for test_unauthorized_access_redirects_to_login_after_logout
+2026-04-12 23:51:30,071 INFO automation - Saved failure screenshot: reports/screenshots/test_unauthorized_access_redirects_to_login_after_logout.png
+2026-04-12 23:51:30,072 INFO automation - Tearing down browser for test_unauthorized_access_redirects_to_login_after_logout
+2026-04-12 23:53:03,077 INFO automation - Starting browser for test_finish_order_shows_success_message
+2026-04-12 23:53:14,685 INFO automation - Saved failure screenshot: reports/screenshots/test_finish_order_shows_success_message.png
+2026-04-12 23:53:14,685 INFO automation - Tearing down browser for test_finish_order_shows_success_message
+2026-04-12 23:53:15,793 INFO automation - Starting browser for test_unauthorized_access_redirects_to_login_after_logout
+2026-04-12 23:53:16,530 INFO automation - Tearing down browser for test_unauthorized_access_redirects_to_login_after_logout
+2026-04-12 23:57:34,008 INFO automation - Starting browser for test_finish_order_shows_success_message
+2026-04-12 23:57:34,884 INFO automation - Tearing down browser for test_finish_order_shows_success_message
+2026-04-12 23:57:35,946 INFO automation - Starting browser for test_unauthorized_access_redirects_to_login_after_logout
+2026-04-12 23:57:36,850 INFO automation - Tearing down browser for test_unauthorized_access_redirects_to_login_after_logout
+2026-04-12 23:57:43,839 INFO automation - Starting browser for test_add_to_cart_updates_badge_and_button
+2026-04-12 23:57:55,047 INFO automation - Tearing down browser for test_add_to_cart_updates_badge_and_button
+2026-04-12 23:57:56,109 INFO automation - Starting browser for test_checkout_first_name_is_required
+2026-04-12 23:57:56,901 INFO automation - Tearing down browser for test_checkout_first_name_is_required
+2026-04-12 23:57:57,918 INFO automation - Starting browser for test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-12 23:57:58,757 INFO automation - Tearing down browser for test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-12 23:57:59,830 INFO automation - Starting browser for test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-12 23:58:00,580 INFO automation - Tearing down browser for test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-12 23:58:01,678 INFO automation - Starting browser for test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-12 23:58:02,564 INFO automation - Tearing down browser for test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-12 23:58:03,615 INFO automation - Starting browser for test_remove_item_from_cart_updates_badge_and_button
+2026-04-12 23:58:14,827 INFO automation - Tearing down browser for test_remove_item_from_cart_updates_badge_and_button
+2026-04-12 23:58:15,866 INFO automation - Starting browser for test_checkout_postal_code_is_required
+2026-04-12 23:58:16,712 INFO automation - Tearing down browser for test_checkout_postal_code_is_required
+2026-04-12 23:58:17,677 INFO automation - Starting browser for test_finish_order_shows_success_message
+2026-04-12 23:58:18,526 INFO automation - Tearing down browser for test_finish_order_shows_success_message
+2026-04-12 23:58:19,579 INFO automation - Starting browser for test_unauthorized_access_redirects_to_login_after_logout
+2026-04-12 23:58:20,282 INFO automation - Tearing down browser for test_unauthorized_access_redirects_to_login_after_logout
+2026-04-12 23:59:08,665 INFO automation - Starting browser for test_login_success
+2026-04-12 23:59:09,318 INFO automation - Tearing down browser for test_login_success
+2026-04-12 23:59:10,389 INFO automation - Starting browser for test_login_validation[standard_user-secret_sauce-True-]
+2026-04-12 23:59:11,004 INFO automation - Tearing down browser for test_login_validation[standard_user-secret_sauce-True-]
+2026-04-12 23:59:12,004 INFO automation - Starting browser for test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-12 23:59:12,738 INFO automation - Tearing down browser for test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-12 23:59:13,674 INFO automation - Starting browser for test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-12 23:59:14,614 INFO automation - Tearing down browser for test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-12 23:59:15,614 INFO automation - Starting browser for test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-12 23:59:16,199 INFO automation - Tearing down browser for test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-12 23:59:17,270 INFO automation - Starting browser for test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-12 23:59:17,947 INFO automation - Tearing down browser for test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 00:00:19,224 INFO automation - Starting browser for test_login_success
+2026-04-13 00:00:19,823 INFO automation - Tearing down browser for test_login_success
+2026-04-13 00:00:20,839 INFO automation - Starting browser for test_login_validation[standard_user-secret_sauce-True-]
+2026-04-13 00:00:21,395 INFO automation - Tearing down browser for test_login_validation[standard_user-secret_sauce-True-]
+2026-04-13 00:00:22,427 INFO automation - Starting browser for test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 00:00:23,032 INFO automation - Tearing down browser for test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 00:00:24,030 INFO automation - Starting browser for test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-13 00:00:24,539 INFO automation - Tearing down browser for test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-13 00:00:25,545 INFO automation - Starting browser for test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-13 00:00:26,035 INFO automation - Tearing down browser for test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-13 00:00:27,064 INFO automation - Starting browser for test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 00:00:27,599 INFO automation - Tearing down browser for test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 00:00:28,613 INFO automation - Starting browser for test_login_failure_blank_username
+2026-04-13 00:00:29,166 INFO automation - Tearing down browser for test_login_failure_blank_username
+2026-04-13 00:00:30,214 INFO automation - Starting browser for test_login_failure_username_length_exceeds_boundary
+2026-04-13 00:00:30,849 INFO automation - Tearing down browser for test_login_failure_username_length_exceeds_boundary
+2026-04-13 00:01:32,954 INFO automation - Starting browser for test_checkout_postal_code_is_required
+2026-04-13 00:01:33,930 INFO automation - Tearing down browser for test_checkout_postal_code_is_required
+2026-04-13 00:01:34,939 INFO automation - Starting browser for test_checkout_last_name_is_required
+2026-04-13 00:01:35,751 INFO automation - Tearing down browser for test_checkout_last_name_is_required
+2026-04-13 00:01:36,771 INFO automation - Starting browser for test_checkout_postal_code_four_digits_is_invalid
+2026-04-13 00:01:48,516 INFO automation - Saved failure screenshot: reports/screenshots/test_checkout_postal_code_four_digits_is_invalid.png
+2026-04-13 00:01:48,516 INFO automation - Tearing down browser for test_checkout_postal_code_four_digits_is_invalid
+2026-04-13 00:01:49,582 INFO automation - Starting browser for test_checkout_postal_code_five_digits_is_valid
+2026-04-13 00:01:50,400 INFO automation - Tearing down browser for test_checkout_postal_code_five_digits_is_valid
+2026-04-13 00:01:51,625 INFO automation - Starting browser for test_checkout_postal_code_six_digits_is_valid
+2026-04-13 00:01:52,720 INFO automation - Tearing down browser for test_checkout_postal_code_six_digits_is_valid
+2026-04-13 00:02:38,955 INFO automation - Starting browser for test_checkout_postal_code_is_required
+2026-04-13 00:02:39,858 INFO automation - Tearing down browser for test_checkout_postal_code_is_required
+2026-04-13 00:02:41,144 INFO automation - Starting browser for test_checkout_last_name_is_required
+2026-04-13 00:02:42,108 INFO automation - Tearing down browser for test_checkout_last_name_is_required
+2026-04-13 00:02:43,112 INFO automation - Starting browser for test_checkout_overview_loads_with_valid_information
+2026-04-13 00:02:44,249 INFO automation - Tearing down browser for test_checkout_overview_loads_with_valid_information
+2026-04-13 00:02:45,306 INFO automation - Starting browser for test_cart_page_shows_selected_item_details
+2026-04-13 00:02:46,284 INFO automation - Tearing down browser for test_cart_page_shows_selected_item_details
+2026-04-13 00:02:47,289 INFO automation - Starting browser for test_finish_order_shows_success_message
+2026-04-13 00:02:48,216 INFO automation - Tearing down browser for test_finish_order_shows_success_message

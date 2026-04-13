@@ -1,0 +1,6 @@
+username,password,should_succeed,error_message
+standard_user,secret_sauce,True,
+standard_user,wrong_password,False,"Epic sadface: Username and password do not match any user in this service"
+standard_user,,False,"Epic sadface: Password is required"
+,secret_sauce,False,"Epic sadface: Username is required"
+standard_user_long_username_exceeding_30,secret_sauce,False,"Epic sadface: Username and password do not match any user in this service"

@@ -1,0 +1,4 @@
+first_name,last_name,postal_code,should_succeed,error_message
+Test,Test,12345,True,
+Test,,12345,False,"Last Name is required"
+Test,Test,,False,"Postal Code is required"
