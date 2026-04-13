@@ -62,6 +62,8 @@ This repository contains a Python + Selenium automation framework for the SauceD
 
 ### Implemented test cases
 
+### Implemented test cases
+
 | Test suite                    | Test case                                                  | Purpose                                                                     |
 | ----------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------- |
 | `tests/test_login.py`         | `test_login_success`                                       | Verify valid login and inventory page load                                  |
@@ -69,6 +71,7 @@ This repository contains a Python + Selenium automation framework for the SauceD
 | `tests/test_login.py`         | `test_login_failure_blank_username`                        | Confirm blank username validation message                                   |
 | `tests/test_login.py`         | `test_login_failure_username_length_exceeds_boundary`      | Validate long username rejection message                                    |
 | `tests/test_cart_checkout.py` | `test_add_to_cart_updates_badge_and_button`                | Ensure cart badge updates and add-to-cart button state changes              |
+| `tests/test_cart_checkout.py` | `test_remove_item_from_cart_updates_badge_and_button`      | Verify removing an item updates cart badge and restores button state        |
 | `tests/test_cart_checkout.py` | `test_checkout_first_name_is_required`                     | Verify checkout validation for missing first name                           |
 | `tests/test_cart_checkout.py` | `test_checkout_information_validation`                     | Validate checkout form fields and error messages using parameterized inputs |
 | `tests/test_cart_checkout.py` | `test_checkout_postal_code_is_required`                    | Confirm postal code validation on checkout information page                 |
@@ -77,6 +80,14 @@ This repository contains a Python + Selenium automation framework for the SauceD
 | `tests/test_cart_checkout.py` | `test_cart_page_shows_selected_item_details`               | Verify selected cart item details are displayed correctly                   |
 | `tests/test_cart_checkout.py` | `test_finish_order_shows_success_message`                  | Validate order completion and success page message                          |
 | `tests/test_cart_checkout.py` | `test_unauthorized_access_redirects_to_login_after_logout` | Ensure logout redirects back to login for protected pages                   |
+
+- `tests/test_cart_checkout.py`
+  - Add item to cart and verify cart badge and button state
+  - Remove item from cart and verify badge reset and button state
+  - Checkout page validation for first name, last name, and postal code
+  - Full checkout flow through overview and order completion
+  - Cart detail visibility for selected items
+  - Logout and unauthorized access redirect behavior
 
 ### JMeter performance testing
 
@@ -112,3 +123,6 @@ This repository contains a Python + Selenium automation framework for the SauceD
   ```
 - `performance/results/aggregate.csv` contains computed response summary metrics.
 - `performance/Findings.md` summarizes current results and SPA routing limitations.
+
+
+

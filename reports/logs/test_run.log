@@ -491,3 +491,240 @@ Stacktrace:
 2026-04-13 11:05:15,955 | INFO | automation | 🛑 Ending test: test_login_failure_blank_username
 2026-04-13 11:05:16,585 | INFO | automation | 🚀 Starting test: test_login_failure_username_length_exceeds_boundary
 2026-04-13 11:05:18,438 | INFO | automation | 🛑 Ending test: test_login_failure_username_length_exceeds_boundary
+2026-04-13 12:34:09,841 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 12:34:31,031 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 12:34:31,674 | INFO | automation | 🚀 Starting test: test_checkout_first_name_is_required
+2026-04-13 12:34:32,465 | INFO | automation | 🛑 Ending test: test_checkout_first_name_is_required
+2026-04-13 12:34:33,076 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 12:34:33,875 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 12:34:34,524 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 12:34:35,318 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 12:34:35,915 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 12:34:36,699 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 12:34:37,351 | INFO | automation | 🚀 Starting test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 12:34:58,004 | INFO | automation | 🛑 Ending test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 12:34:58,669 | INFO | automation | 🚀 Starting test: test_checkout_postal_code_is_required
+2026-04-13 12:34:59,475 | INFO | automation | 🛑 Ending test: test_checkout_postal_code_is_required
+2026-04-13 12:35:00,053 | INFO | automation | 🚀 Starting test: test_checkout_last_name_is_required
+2026-04-13 12:35:00,838 | INFO | automation | 🛑 Ending test: test_checkout_last_name_is_required
+2026-04-13 12:35:01,485 | INFO | automation | 🚀 Starting test: test_checkout_overview_loads_with_valid_information
+2026-04-13 12:35:02,386 | INFO | automation | 🛑 Ending test: test_checkout_overview_loads_with_valid_information
+2026-04-13 12:35:03,003 | INFO | automation | 🚀 Starting test: test_cart_page_shows_selected_item_details
+2026-04-13 12:35:03,570 | INFO | automation | 🛑 Ending test: test_cart_page_shows_selected_item_details
+2026-04-13 12:35:04,120 | INFO | automation | 🚀 Starting test: test_finish_order_shows_success_message
+2026-04-13 12:35:04,953 | INFO | automation | 🛑 Ending test: test_finish_order_shows_success_message
+2026-04-13 12:35:05,630 | INFO | automation | 🚀 Starting test: test_unauthorized_access_redirects_to_login_after_logout
+2026-04-13 12:35:06,736 | INFO | automation | 🛑 Ending test: test_unauthorized_access_redirects_to_login_after_logout
+2026-04-13 12:35:07,271 | INFO | automation | 🚀 Starting test: test_login_success
+2026-04-13 12:35:07,802 | INFO | automation | 🛑 Ending test: test_login_success
+2026-04-13 12:35:08,420 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user-secret_sauce-True-]
+2026-04-13 12:35:09,609 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user-secret_sauce-True-]
+2026-04-13 12:35:10,227 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 12:35:10,698 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 12:35:11,269 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-13 12:35:11,743 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-13 12:35:12,370 | INFO | automation | 🚀 Starting test: test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-13 12:35:12,870 | INFO | automation | 🛑 Ending test: test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-13 12:35:13,534 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 12:35:14,015 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 12:35:14,572 | INFO | automation | 🚀 Starting test: test_login_failure_blank_username
+2026-04-13 12:35:15,049 | INFO | automation | 🛑 Ending test: test_login_failure_blank_username
+2026-04-13 12:35:15,678 | INFO | automation | 🚀 Starting test: test_login_failure_username_length_exceeds_boundary
+2026-04-13 12:35:16,165 | INFO | automation | 🛑 Ending test: test_login_failure_username_length_exceeds_boundary
+2026-04-13 12:45:10,606 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 12:45:51,748 | ERROR | automation | ❌ Test failed. Screenshot saved: reports/screenshots/test_add_to_cart_updates_badge_and_button_20260413_124551.png
+2026-04-13 12:45:51,748 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 12:45:52,391 | INFO | automation | 🚀 Starting test: test_checkout_first_name_is_required
+2026-04-13 12:45:53,242 | INFO | automation | 🛑 Ending test: test_checkout_first_name_is_required
+2026-04-13 12:45:53,853 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 12:45:54,708 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 12:45:55,297 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 12:45:56,146 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 12:45:56,763 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 12:45:57,570 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 12:45:58,140 | INFO | automation | 🚀 Starting test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 12:46:18,884 | INFO | automation | 🛑 Ending test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 12:46:19,506 | INFO | automation | 🚀 Starting test: test_checkout_postal_code_is_required
+2026-04-13 12:46:20,394 | INFO | automation | 🛑 Ending test: test_checkout_postal_code_is_required
+2026-04-13 12:46:20,941 | INFO | automation | 🚀 Starting test: test_checkout_last_name_is_required
+2026-04-13 12:46:21,827 | INFO | automation | 🛑 Ending test: test_checkout_last_name_is_required
+2026-04-13 12:46:22,499 | INFO | automation | 🚀 Starting test: test_checkout_overview_loads_with_valid_information
+2026-04-13 12:46:23,382 | INFO | automation | 🛑 Ending test: test_checkout_overview_loads_with_valid_information
+2026-04-13 12:46:23,981 | INFO | automation | 🚀 Starting test: test_cart_page_shows_selected_item_details
+2026-04-13 12:46:24,626 | INFO | automation | 🛑 Ending test: test_cart_page_shows_selected_item_details
+2026-04-13 12:46:25,199 | INFO | automation | 🚀 Starting test: test_finish_order_shows_success_message
+2026-04-13 12:46:26,065 | INFO | automation | 🛑 Ending test: test_finish_order_shows_success_message
+2026-04-13 12:46:26,683 | INFO | automation | 🚀 Starting test: test_unauthorized_access_redirects_to_login_after_logout
+2026-04-13 12:46:27,854 | INFO | automation | 🛑 Ending test: test_unauthorized_access_redirects_to_login_after_logout
+2026-04-13 12:46:28,400 | INFO | automation | 🚀 Starting test: test_login_success
+2026-04-13 12:46:28,969 | INFO | automation | 🛑 Ending test: test_login_success
+2026-04-13 12:46:29,594 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user-secret_sauce-True-]
+2026-04-13 12:46:30,177 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user-secret_sauce-True-]
+2026-04-13 12:46:30,743 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 12:46:31,304 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 12:46:31,909 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-13 12:46:32,465 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-13 12:46:33,017 | INFO | automation | 🚀 Starting test: test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-13 12:46:33,570 | INFO | automation | 🛑 Ending test: test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-13 12:46:34,193 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 12:46:34,778 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 12:46:35,358 | INFO | automation | 🚀 Starting test: test_login_failure_blank_username
+2026-04-13 12:46:35,940 | INFO | automation | 🛑 Ending test: test_login_failure_blank_username
+2026-04-13 12:46:36,557 | INFO | automation | 🚀 Starting test: test_login_failure_username_length_exceeds_boundary
+2026-04-13 12:46:37,125 | INFO | automation | 🛑 Ending test: test_login_failure_username_length_exceeds_boundary
+2026-04-13 12:54:46,716 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 12:55:27,875 | ERROR | automation | ❌ Test failed. Screenshot saved: reports/screenshots/test_add_to_cart_updates_badge_and_button_20260413_125527.png
+2026-04-13 12:55:27,875 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 12:55:28,572 | INFO | automation | 🚀 Starting test: test_checkout_first_name_is_required
+2026-04-13 12:55:29,417 | INFO | automation | 🛑 Ending test: test_checkout_first_name_is_required
+2026-04-13 12:55:29,987 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 12:55:30,840 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 12:55:31,453 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 12:55:32,248 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 12:55:32,879 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 12:55:33,692 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 12:55:34,338 | INFO | automation | 🚀 Starting test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 12:55:55,053 | INFO | automation | 🛑 Ending test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 12:55:55,702 | INFO | automation | 🚀 Starting test: test_checkout_postal_code_is_required
+2026-04-13 12:55:56,606 | INFO | automation | 🛑 Ending test: test_checkout_postal_code_is_required
+2026-04-13 12:55:57,181 | INFO | automation | 🚀 Starting test: test_checkout_last_name_is_required
+2026-04-13 12:55:58,026 | INFO | automation | 🛑 Ending test: test_checkout_last_name_is_required
+2026-04-13 12:55:58,661 | INFO | automation | 🚀 Starting test: test_checkout_overview_loads_with_valid_information
+2026-04-13 12:55:59,492 | INFO | automation | 🛑 Ending test: test_checkout_overview_loads_with_valid_information
+2026-04-13 12:56:00,060 | INFO | automation | 🚀 Starting test: test_cart_page_shows_selected_item_details
+2026-04-13 12:56:00,712 | INFO | automation | 🛑 Ending test: test_cart_page_shows_selected_item_details
+2026-04-13 12:56:01,342 | INFO | automation | 🚀 Starting test: test_finish_order_shows_success_message
+2026-04-13 12:56:02,205 | INFO | automation | 🛑 Ending test: test_finish_order_shows_success_message
+2026-04-13 12:56:02,836 | INFO | automation | 🚀 Starting test: test_unauthorized_access_redirects_to_login_after_logout
+2026-04-13 12:56:04,006 | INFO | automation | 🛑 Ending test: test_unauthorized_access_redirects_to_login_after_logout
+2026-04-13 12:56:04,571 | INFO | automation | 🚀 Starting test: test_login_success
+2026-04-13 12:56:05,174 | INFO | automation | 🛑 Ending test: test_login_success
+2026-04-13 12:56:05,785 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user-secret_sauce-True-]
+2026-04-13 12:56:06,364 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user-secret_sauce-True-]
+2026-04-13 12:56:06,928 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 12:56:08,050 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 12:56:08,671 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-13 12:56:09,224 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-13 12:56:09,770 | INFO | automation | 🚀 Starting test: test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-13 12:56:10,315 | INFO | automation | 🛑 Ending test: test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-13 12:56:10,892 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 12:56:11,464 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 12:56:12,021 | INFO | automation | 🚀 Starting test: test_login_failure_blank_username
+2026-04-13 12:56:12,574 | INFO | automation | 🛑 Ending test: test_login_failure_blank_username
+2026-04-13 12:56:13,204 | INFO | automation | 🚀 Starting test: test_login_failure_username_length_exceeds_boundary
+2026-04-13 12:56:13,826 | INFO | automation | 🛑 Ending test: test_login_failure_username_length_exceeds_boundary
+2026-04-13 13:19:00,640 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 13:20:28,650 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 13:20:29,351 | INFO | automation | 🚀 Starting test: test_checkout_first_name_is_required
+2026-04-13 13:20:31,006 | INFO | automation | 🛑 Ending test: test_checkout_first_name_is_required
+2026-04-13 13:20:31,639 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 13:20:34,744 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 13:20:35,325 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 13:20:40,315 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 13:20:40,939 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 13:20:43,676 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 13:20:44,264 | INFO | automation | 🚀 Starting test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 13:21:06,733 | INFO | automation | 🛑 Ending test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 13:21:07,380 | INFO | automation | 🚀 Starting test: test_checkout_postal_code_is_required
+2026-04-13 13:21:10,759 | INFO | automation | 🛑 Ending test: test_checkout_postal_code_is_required
+2026-04-13 13:21:11,365 | INFO | automation | 🚀 Starting test: test_checkout_last_name_is_required
+2026-04-13 13:21:13,918 | INFO | automation | 🛑 Ending test: test_checkout_last_name_is_required
+2026-04-13 13:21:14,516 | INFO | automation | 🚀 Starting test: test_checkout_overview_loads_with_valid_information
+2026-04-13 13:21:16,845 | INFO | automation | 🛑 Ending test: test_checkout_overview_loads_with_valid_information
+2026-04-13 13:21:17,421 | INFO | automation | 🚀 Starting test: test_cart_page_shows_selected_item_details
+2026-04-13 13:21:18,734 | INFO | automation | 🛑 Ending test: test_cart_page_shows_selected_item_details
+2026-04-13 13:21:19,347 | INFO | automation | 🚀 Starting test: test_finish_order_shows_success_message
+2026-04-13 13:21:23,588 | INFO | automation | 🛑 Ending test: test_finish_order_shows_success_message
+2026-04-13 13:21:24,229 | INFO | automation | 🚀 Starting test: test_unauthorized_access_redirects_to_login_after_logout
+2026-04-13 13:21:26,495 | INFO | automation | 🛑 Ending test: test_unauthorized_access_redirects_to_login_after_logout
+2026-04-13 13:21:27,080 | INFO | automation | 🚀 Starting test: test_login_success
+2026-04-13 13:21:28,282 | INFO | automation | 🛑 Ending test: test_login_success
+2026-04-13 13:21:28,932 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user-secret_sauce-True-]
+2026-04-13 13:21:32,084 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user-secret_sauce-True-]
+2026-04-13 13:21:32,697 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 13:21:36,161 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 13:21:36,817 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-13 13:21:39,233 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-13 13:21:39,813 | INFO | automation | 🚀 Starting test: test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-13 13:21:42,456 | INFO | automation | 🛑 Ending test: test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-13 13:21:43,115 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 13:21:45,037 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 13:21:45,607 | INFO | automation | 🚀 Starting test: test_login_failure_blank_username
+2026-04-13 13:21:48,807 | INFO | automation | 🛑 Ending test: test_login_failure_blank_username
+2026-04-13 13:21:49,434 | INFO | automation | 🚀 Starting test: test_login_failure_username_length_exceeds_boundary
+2026-04-13 13:21:51,919 | INFO | automation | 🛑 Ending test: test_login_failure_username_length_exceeds_boundary
+2026-04-13 13:26:40,728 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 13:26:57,397 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x0000000102ff7ab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102fefa84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000102abb7c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000102a9421c chromedriver + 164380
+4   chromedriver                        0x0000000102b2bf64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x0000000102b42f58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102af8e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102fb5240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102fb8a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102f9b1f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102fb92a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102f8c01c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102fde980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102fdeafc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102fef6dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000019fd0fc0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019fd0ab80 thread_start + 8
+
+2026-04-13 13:26:57,397 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 13:26:58,027 | INFO | automation | 🚀 Starting test: test_checkout_first_name_is_required
+2026-04-13 13:27:00,177 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x000000010067fab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000100677a84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001001437c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x000000010011c21c chromedriver + 164380
+4   chromedriver                        0x00000001001b3f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001001caf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000100180e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x000000010063d240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000100640a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x00000001006231f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x00000001006412a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x000000010061401c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000100666980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000100666afc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x00000001006776dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000019fd0fc0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019fd0ab80 thread_start + 8
+
+2026-04-13 13:27:00,177 | INFO | automation | 🛑 Ending test: test_checkout_first_name_is_required
+2026-04-13 13:27:00,791 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 13:27:43,655 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 13:28:02,737 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x0000000104e73ab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000104e6ba84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001049377c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x000000010491021c chromedriver + 164380
+4   chromedriver                        0x00000001049a7f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001049bef58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000104974e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000104e31240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000104e34a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000104e171f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000104e352a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000104e0801c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000104e5a980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000104e5aafc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000104e6b6dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000019fd0fc0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000019fd0ab80 thread_start + 8
+
+2026-04-13 13:28:02,738 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 13:28:03,380 | INFO | automation | 🚀 Starting test: test_checkout_first_name_is_required
+2026-04-13 13:30:05,268 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
