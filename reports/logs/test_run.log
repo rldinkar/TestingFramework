@@ -104,3 +104,4 @@
 2026-04-13 00:02:46,284 INFO automation - Tearing down browser for test_cart_page_shows_selected_item_details
 2026-04-13 00:02:47,289 INFO automation - Starting browser for test_finish_order_shows_success_message
 2026-04-13 00:02:48,216 INFO automation - Tearing down browser for test_finish_order_shows_success_message
+2026-04-13 10:22:35,420 | INFO | automation | 🚀 Starting test: test_login_success

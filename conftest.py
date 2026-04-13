@@ -70,6 +70,7 @@
 
 
 import logging
+import os
 from pathlib import Path
 from datetime import datetime
 import pytest
@@ -83,6 +84,26 @@ LOG_DIR = Path("reports/logs")
 SCREENSHOT_DIR = Path("reports/screenshots")
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 SCREENSHOT_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def get_local_chromedriver() -> str | None:
+    env_path = os.getenv("CHROMEDRIVER_PATH")
+    if env_path:
+        candidate = Path(env_path).expanduser()
+        if candidate.exists():
+            return str(candidate)
+
+    cache_dir = Path.home() / ".wdm" / "drivers" / "chromedriver" / "mac64"
+    if not cache_dir.exists():
+        return None
+
+    for version_dir in sorted(cache_dir.iterdir(), reverse=True):
+        if not version_dir.is_dir():
+            continue
+        for candidate in version_dir.rglob("chromedriver"):
+            if candidate.is_file():
+                return str(candidate)
+    return None
 
 
 # ✅ Configure logger (session-level)
@@ -124,10 +145,13 @@ def driver(request, logger):
     # 🔥 Optional: headless mode (uncomment if needed)
     # options.add_argument("--headless=new")
 
-    driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()),
-        options=options
-    )
+    local_driver = get_local_chromedriver()
+    if local_driver:
+        service = Service(local_driver)
+    else:
+        service = Service(ChromeDriverManager().install())
+
+    driver = webdriver.Chrome(service=service, options=options)
 
     request.node.driver = driver
     logger.info(f"🚀 Starting test: {request.node.name}")
