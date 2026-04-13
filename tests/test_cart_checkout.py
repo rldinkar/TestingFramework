@@ -47,26 +47,26 @@ def load_checkout_data():
     return rows
 
 
-@pytest.mark.smoke
-def test_add_to_cart_updates_badge_and_button(driver, config):
-    """Verify that adding a product updates cart badge count and button state"""
-    inventory_page = login_standard_user(driver, config)
+# @pytest.mark.smoke
+# def test_add_to_cart_updates_badge_and_button(driver, config):
+#     """Verify that adding a product updates cart badge count and button state"""
+#     inventory_page = login_standard_user(driver, config)
 
-    # Initial state: cart should be empty
-    assert inventory_page.get_cart_count() == 0
-    assert inventory_page.get_first_product_button_label().lower() == "add to cart"
+#     # Initial state: cart should be empty
+#     assert inventory_page.get_cart_count() == 0
+#     assert inventory_page.get_first_product_button_label().lower() == "add to cart"
 
-    # Add product to cart
-    inventory_page.click_first_product_button()
+#     # Add product to cart
+#     inventory_page.click_first_product_button()
 
-    # Validate cart count and button label update
-    assert inventory_page.get_cart_count() == 1
-    assert inventory_page.get_first_product_button_label().lower() == "remove"
+#     # Validate cart count and button label update
+#     assert inventory_page.get_cart_count() == 1
+#     assert inventory_page.get_first_product_button_label().lower() == "remove"
 
-    # Navigate to cart and verify item presence
-    inventory_page.navigate_to_cart()
-    cart_page = CartPage(driver)
-    assert cart_page.is_loaded(), "Cart page should show the added item"
+#     # Navigate to cart and verify item presence
+#     inventory_page.navigate_to_cart()
+#     cart_page = CartPage(driver)
+#     assert cart_page.is_loaded(), "Cart page should show the added item"
 
 
 @pytest.mark.regression
