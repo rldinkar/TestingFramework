@@ -105,3 +105,104 @@
 2026-04-13 00:02:47,289 INFO automation - Starting browser for test_finish_order_shows_success_message
 2026-04-13 00:02:48,216 INFO automation - Tearing down browser for test_finish_order_shows_success_message
 2026-04-13 10:22:35,420 | INFO | automation | 🚀 Starting test: test_login_success
+2026-04-13 10:23:51,007 | INFO | automation | 🛑 Ending test: test_login_success
+2026-04-13 10:24:32,698 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 10:24:44,068 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 10:24:44,613 | INFO | automation | 🚀 Starting test: test_login_success
+2026-04-13 10:25:30,621 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 10:25:57,889 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x000000010315fab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000103157a84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000102c237c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000102bfc21c chromedriver + 164380
+4   chromedriver                        0x0000000102c93f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x0000000102caaf58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102c60e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x000000010311d240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000103120a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x00000001031031f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x00000001031212a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x00000001030f401c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000103146980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000103146afc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x00000001031576dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000018d433c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d42eb80 thread_start + 8
+
+2026-04-13 10:25:57,889 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 10:25:58,481 | INFO | automation | 🚀 Starting test: test_checkout_first_name_is_required
+2026-04-13 10:26:05,055 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x0000000102c03ab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102bfba84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001026c77c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001026a021c chromedriver + 164380
+4   chromedriver                        0x0000000102737f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x000000010274ef58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102704e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102bc1240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102bc4a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102ba71f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102bc52a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102b9801c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102bea980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102beaafc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102bfb6dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000018d433c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d42eb80 thread_start + 8
+
+2026-04-13 10:26:05,055 | INFO | automation | 🛑 Ending test: test_checkout_first_name_is_required
+2026-04-13 10:26:05,680 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 10:26:09,494 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x00000001008e7ab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001008dfa84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001003ab7c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x000000010038421c chromedriver + 164380
+4   chromedriver                        0x000000010041bf64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x0000000100432f58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x00000001003e8e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x00000001008a5240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x00000001008a8a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x000000010088b1f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x00000001008a92a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x000000010087c01c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x00000001008ce980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x00000001008ceafc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x00000001008df6dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000018d433c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d42eb80 thread_start + 8
+
+2026-04-13 10:26:09,494 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 10:26:10,025 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 10:26:18,299 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x0000000102873ab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x000000010286ba84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001023377c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x000000010231021c chromedriver + 164380
+4   chromedriver                        0x00000001023a7f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x00000001023bef58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102374e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102831240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102834a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x00000001028171f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x00000001028352a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x000000010280801c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x000000010285a980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x000000010285aafc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x000000010286b6dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000018d433c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d42eb80 thread_start + 8
+
+2026-04-13 10:26:18,299 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 10:26:18,916 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
