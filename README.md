@@ -60,6 +60,24 @@ This repository contains a Python + Selenium automation framework for the SauceD
   - Cart detail visibility for selected items
   - Logout and unauthorized access redirect behavior
 
+### Implemented test cases
+
+| Test suite                    | Test case                                                  | Purpose                                                                     |
+| ----------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------- |
+| `tests/test_login.py`         | `test_login_success`                                       | Verify valid login and inventory page load                                  |
+| `tests/test_login.py`         | `test_login_validation`                                    | Validate login errors for invalid credentials and missing fields            |
+| `tests/test_login.py`         | `test_login_failure_blank_username`                        | Confirm blank username validation message                                   |
+| `tests/test_login.py`         | `test_login_failure_username_length_exceeds_boundary`      | Validate long username rejection message                                    |
+| `tests/test_cart_checkout.py` | `test_add_to_cart_updates_badge_and_button`                | Ensure cart badge updates and add-to-cart button state changes              |
+| `tests/test_cart_checkout.py` | `test_checkout_first_name_is_required`                     | Verify checkout validation for missing first name                           |
+| `tests/test_cart_checkout.py` | `test_checkout_information_validation`                     | Validate checkout form fields and error messages using parameterized inputs |
+| `tests/test_cart_checkout.py` | `test_checkout_postal_code_is_required`                    | Confirm postal code validation on checkout information page                 |
+| `tests/test_cart_checkout.py` | `test_checkout_last_name_is_required`                      | Confirm last name validation on checkout information page                   |
+| `tests/test_cart_checkout.py` | `test_checkout_overview_loads_with_valid_information`      | Confirm checkout overview loads after valid input                           |
+| `tests/test_cart_checkout.py` | `test_cart_page_shows_selected_item_details`               | Verify selected cart item details are displayed correctly                   |
+| `tests/test_cart_checkout.py` | `test_finish_order_shows_success_message`                  | Validate order completion and success page message                          |
+| `tests/test_cart_checkout.py` | `test_unauthorized_access_redirects_to_login_after_logout` | Ensure logout redirects back to login for protected pages                   |
+
 ### JMeter performance testing
 
 - The load test plan is located at `performance/jmx/saucedemo_weekend_lab.jmx`.
