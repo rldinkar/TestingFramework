@@ -15,5 +15,11 @@ class CheckoutInfoPage(BasePage):
         self.type_text(self.POSTAL_CODE, postal_code)
         self.click(self.CONTINUE_BUTTON)
 
+        # After clicking continue, wait for either the next checkout step or an error banner.
+        self.wait.until(
+            lambda driver: driver.current_url.endswith("checkout-step-two.html")
+            or len(driver.find_elements(*self.ERROR_MESSAGE)) > 0
+        )
+
     def get_error_message(self):
         return self.get_text(self.ERROR_MESSAGE)

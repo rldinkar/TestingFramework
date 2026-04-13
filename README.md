@@ -37,6 +37,39 @@ This repository contains a Python + Selenium automation framework for the SauceD
 
 - Generated HTML report is written to `reports/report.html` when tests run.
 
+## Automated test cases
+
+### Smoke test coverage
+
+- `tests/test_login.py::test_login_success`
+- Verifies that a valid standard user can log in successfully and reach the inventory page.
+- This is the primary fast sanity check for the build.
+
+### Regression test coverage
+
+- `tests/test_login.py`
+  - Valid login
+  - Invalid password
+  - Missing password
+  - Missing username
+  - Username length boundary validation
+- `tests/test_cart_checkout.py`
+  - Add item to cart and verify cart badge and button state
+  - Checkout page validation for first name, last name, and postal code
+  - Full checkout flow through overview and order completion
+  - Cart detail visibility for selected items
+  - Logout and unauthorized access redirect behavior
+
+### JMeter performance testing
+
+- The load test plan is located at `performance/jmx/saucedemo_weekend_lab.jmx`.
+- Run the JMeter plan with:
+  ```bash
+  jmeter -n -t performance/jmx/saucedemo_weekend_lab.jmx -l performance/results/results.jtl -e -o performance/html_report
+  ```
+- After running, view generated performance reports in `performance/html_report`.
+- Summary results are available in `performance/results/aggregate.csv` and `performance/Findings.md`.
+
 ## Project structure
 
 - `pages/` - Page Object Model classes

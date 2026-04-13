@@ -152,6 +152,7 @@ def driver(request, logger):
         service = Service(ChromeDriverManager().install())
 
     driver = webdriver.Chrome(service=service, options=options)
+    driver.implicitly_wait(0)
 
     request.node.driver = driver
     logger.info(f"🚀 Starting test: {request.node.name}")

@@ -206,3 +206,288 @@ Stacktrace:
 
 2026-04-13 10:26:18,299 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test--12345-False-Last Name is required]
 2026-04-13 10:26:18,916 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 10:32:16,229 | INFO | automation | 🚀 Starting test: test_login_success
+2026-04-13 10:33:31,773 | INFO | automation | 🛑 Ending test: test_login_success
+2026-04-13 10:34:02,784 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 10:35:28,844 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 10:35:29,489 | INFO | automation | 🚀 Starting test: test_login_success
+2026-04-13 10:35:30,547 | INFO | automation | 🛑 Ending test: test_login_success
+2026-04-13 10:36:31,187 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 10:36:42,134 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 10:36:42,751 | INFO | automation | 🚀 Starting test: test_checkout_first_name_is_required
+2026-04-13 10:37:58,602 | INFO | automation | 🛑 Ending test: test_checkout_first_name_is_required
+2026-04-13 10:37:59,294 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 10:38:00,283 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 10:38:00,923 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 10:38:12,734 | ERROR | automation | ❌ Test failed. Screenshot saved: reports/screenshots/test_checkout_information_validation[Test--12345-False-Last Name is required]_20260413_103812.png
+2026-04-13 10:38:12,735 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 10:38:13,404 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 10:39:19,909 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x00000001011dbab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001011d3a84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000100c9f7c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000100c7821c chromedriver + 164380
+4   chromedriver                        0x0000000100d0ff64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x0000000100d26f58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000100cdce50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000101199240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x000000010119ca20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x000000010117f1f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x000000010119d2a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x000000010117001c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x00000001011c2980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x00000001011c2afc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x00000001011d36dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000018d433c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d42eb80 thread_start + 8
+
+2026-04-13 10:39:19,909 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 10:39:20,638 | INFO | automation | 🚀 Starting test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 10:39:31,939 | INFO | automation | 🛑 Ending test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 10:39:32,515 | INFO | automation | 🚀 Starting test: test_checkout_postal_code_is_required
+2026-04-13 10:41:24,359 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 10:41:35,263 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 10:41:35,890 | INFO | automation | 🚀 Starting test: test_checkout_first_name_is_required
+2026-04-13 10:42:59,935 | INFO | automation | 🛑 Ending test: test_checkout_first_name_is_required
+2026-04-13 10:43:00,633 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 10:44:04,565 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 10:44:16,398 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 10:44:17,003 | INFO | automation | 🚀 Starting test: test_checkout_first_name_is_required
+2026-04-13 10:44:26,044 | INFO | automation | 🛑 Ending test: test_checkout_first_name_is_required
+2026-04-13 10:44:26,698 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 10:45:42,639 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 10:45:43,367 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 10:45:54,651 | ERROR | automation | ❌ Test failed. Screenshot saved: reports/screenshots/test_checkout_information_validation[Test--12345-False-Last Name is required]_20260413_104554.png
+2026-04-13 10:45:54,651 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 10:48:22,766 | INFO | automation | 🚀 Starting test: test_checkout_last_name_is_required
+2026-04-13 10:50:53,172 | ERROR | automation | ❌ Test failed. Screenshot saved: reports/screenshots/test_checkout_last_name_is_required_20260413_105022.png
+2026-04-13 10:50:53,172 | INFO | automation | 🛑 Ending test: test_checkout_last_name_is_required
+2026-04-13 10:53:45,219 | INFO | automation | 🚀 Starting test: test_checkout_last_name_is_required
+2026-04-13 10:56:02,789 | INFO | automation | 🚀 Starting test: test_checkout_last_name_is_required
+2026-04-13 10:56:15,694 | ERROR | automation | ❌ Test failed. Screenshot saved: reports/screenshots/test_checkout_last_name_is_required_20260413_105545.png
+2026-04-13 10:56:15,694 | INFO | automation | 🛑 Ending test: test_checkout_last_name_is_required
+2026-04-13 10:57:18,944 | INFO | automation | 🛑 Ending test: test_checkout_last_name_is_required
+2026-04-13 10:57:49,350 | INFO | automation | 🚀 Starting test: test_checkout_last_name_is_required
+2026-04-13 10:59:05,179 | INFO | automation | 🛑 Ending test: test_checkout_last_name_is_required
+2026-04-13 11:00:38,908 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 11:00:53,413 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x0000000104b0fab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000104b07a84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001045d37c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001045ac21c chromedriver + 164380
+4   chromedriver                        0x0000000104643f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x000000010465af58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000104610e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000104acd240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000104ad0a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000104ab31f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000104ad12a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000104aa401c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000104af6980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000104af6afc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000104b076dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000018d433c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d42eb80 thread_start + 8
+
+2026-04-13 11:00:53,413 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 11:00:54,059 | INFO | automation | 🚀 Starting test: test_checkout_first_name_is_required
+2026-04-13 11:01:04,801 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x00000001054b3ab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001054aba84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000104f777c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000104f5021c chromedriver + 164380
+4   chromedriver                        0x0000000104fe7f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x0000000104ffef58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000104fb4e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000105471240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000105474a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x00000001054571f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x00000001054752a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x000000010544801c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x000000010549a980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x000000010549aafc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x00000001054ab6dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000018d433c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d42eb80 thread_start + 8
+
+2026-04-13 11:01:04,801 | INFO | automation | 🛑 Ending test: test_checkout_first_name_is_required
+2026-04-13 11:01:05,425 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 11:01:06,248 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 11:01:06,857 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 11:01:27,841 | ERROR | automation | ⚠️ Screenshot failed: 'NoneType' object has no attribute 'encode'
+2026-04-13 11:01:27,842 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 11:01:28,494 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 11:01:34,305 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x0000000104fefab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000104fe7a84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000104ab37c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000104a8c21c chromedriver + 164380
+4   chromedriver                        0x0000000104b23f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x0000000104b3af58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000104af0e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000104fad240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000104fb0a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000104f931f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000104fb12a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000104f8401c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000104fd6980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000104fd6afc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000104fe76dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000018d433c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d42eb80 thread_start + 8
+
+2026-04-13 11:01:34,305 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 11:01:34,919 | INFO | automation | 🚀 Starting test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 11:01:39,481 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x0000000102d2fab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x0000000102d27a84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x00000001027f37c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x00000001027cc21c chromedriver + 164380
+4   chromedriver                        0x0000000102863f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x000000010287af58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102830e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000102ced240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000102cf0a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x0000000102cd31f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x0000000102cf12a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x0000000102cc401c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x0000000102d16980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x0000000102d16afc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x0000000102d276dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000018d433c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d42eb80 thread_start + 8
+
+2026-04-13 11:01:39,481 | INFO | automation | 🛑 Ending test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 11:01:40,086 | INFO | automation | 🚀 Starting test: test_checkout_postal_code_is_required
+2026-04-13 11:01:40,926 | INFO | automation | 🛑 Ending test: test_checkout_postal_code_is_required
+2026-04-13 11:01:41,502 | INFO | automation | 🚀 Starting test: test_checkout_last_name_is_required
+2026-04-13 11:01:42,253 | INFO | automation | 🛑 Ending test: test_checkout_last_name_is_required
+2026-04-13 11:01:42,876 | INFO | automation | 🚀 Starting test: test_checkout_overview_loads_with_valid_information
+2026-04-13 11:01:48,364 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x0000000101523ab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x000000010151ba84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000100fe77c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000100fc021c chromedriver + 164380
+4   chromedriver                        0x0000000101057f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x000000010106ef58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000101024e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x00000001014e1240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x00000001014e4a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x00000001014c71f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x00000001014e52a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x00000001014b801c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x000000010150a980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x000000010150aafc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x000000010151b6dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000018d433c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d42eb80 thread_start + 8
+
+2026-04-13 11:01:48,364 | INFO | automation | 🛑 Ending test: test_checkout_overview_loads_with_valid_information
+2026-04-13 11:01:48,954 | INFO | automation | 🚀 Starting test: test_cart_page_shows_selected_item_details
+2026-04-13 11:02:06,507 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x00000001033e3ab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001033dba84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000102ea77c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000102e8021c chromedriver + 164380
+4   chromedriver                        0x0000000102f17f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x0000000102f2ef58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000102ee4e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x00000001033a1240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x00000001033a4a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x00000001033871f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x00000001033a52a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x000000010337801c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x00000001033ca980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x00000001033caafc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x00000001033db6dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000018d433c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d42eb80 thread_start + 8
+
+2026-04-13 11:02:06,508 | INFO | automation | 🛑 Ending test: test_cart_page_shows_selected_item_details
+2026-04-13 11:02:07,128 | INFO | automation | 🚀 Starting test: test_finish_order_shows_success_message
+2026-04-13 11:02:08,498 | ERROR | automation | ⚠️ Screenshot failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+0   chromedriver                        0x00000001014d3ab4 cxxbridge1$str$ptr + 3192864
+1   chromedriver                        0x00000001014cba84 cxxbridge1$str$ptr + 3160048
+2   chromedriver                        0x0000000100f977c0 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75348
+3   chromedriver                        0x0000000100f7021c chromedriver + 164380
+4   chromedriver                        0x0000000101007f64 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 536056
+5   chromedriver                        0x000000010101ef58 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 630252
+6   chromedriver                        0x0000000100fd4e50 _RNvCs10ygTOo3JCa_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326884
+7   chromedriver                        0x0000000101491240 cxxbridge1$str$ptr + 2920364
+8   chromedriver                        0x0000000101494a20 cxxbridge1$str$ptr + 2934668
+9   chromedriver                        0x00000001014771f4 cxxbridge1$str$ptr + 2813792
+10  chromedriver                        0x00000001014952a0 cxxbridge1$str$ptr + 2936844
+11  chromedriver                        0x000000010146801c cxxbridge1$str$ptr + 2751880
+12  chromedriver                        0x00000001014ba980 cxxbridge1$str$ptr + 3090156
+13  chromedriver                        0x00000001014baafc cxxbridge1$str$ptr + 3090536
+14  chromedriver                        0x00000001014cb6dc cxxbridge1$str$ptr + 3159112
+15  libsystem_pthread.dylib             0x000000018d433c0c _pthread_start + 136
+16  libsystem_pthread.dylib             0x000000018d42eb80 thread_start + 8
+
+2026-04-13 11:02:08,498 | INFO | automation | 🛑 Ending test: test_finish_order_shows_success_message
+2026-04-13 11:02:09,061 | INFO | automation | 🚀 Starting test: test_unauthorized_access_redirects_to_login_after_logout
+2026-04-13 11:02:10,227 | INFO | automation | 🛑 Ending test: test_unauthorized_access_redirects_to_login_after_logout
+2026-04-13 11:03:35,187 | INFO | automation | 🚀 Starting test: test_add_to_cart_updates_badge_and_button
+2026-04-13 11:03:59,399 | INFO | automation | 🛑 Ending test: test_add_to_cart_updates_badge_and_button
+2026-04-13 11:04:00,019 | INFO | automation | 🚀 Starting test: test_checkout_first_name_is_required
+2026-04-13 11:04:04,233 | INFO | automation | 🛑 Ending test: test_checkout_first_name_is_required
+2026-04-13 11:04:04,861 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 11:04:06,931 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test-12345-True-]
+2026-04-13 11:04:07,495 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 11:04:10,776 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test--12345-False-Last Name is required]
+2026-04-13 11:04:11,394 | INFO | automation | 🚀 Starting test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 11:04:13,715 | INFO | automation | 🛑 Ending test: test_checkout_information_validation[Test-Test--False-Postal Code is required]
+2026-04-13 11:04:14,344 | INFO | automation | 🚀 Starting test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 11:04:36,519 | INFO | automation | 🛑 Ending test: test_remove_item_from_cart_updates_badge_and_button
+2026-04-13 11:04:37,145 | INFO | automation | 🚀 Starting test: test_checkout_postal_code_is_required
+2026-04-13 11:04:41,643 | INFO | automation | 🛑 Ending test: test_checkout_postal_code_is_required
+2026-04-13 11:04:42,263 | INFO | automation | 🚀 Starting test: test_checkout_last_name_is_required
+2026-04-13 11:04:44,323 | INFO | automation | 🛑 Ending test: test_checkout_last_name_is_required
+2026-04-13 11:04:44,950 | INFO | automation | 🚀 Starting test: test_checkout_overview_loads_with_valid_information
+2026-04-13 11:04:47,741 | INFO | automation | 🛑 Ending test: test_checkout_overview_loads_with_valid_information
+2026-04-13 11:04:48,328 | INFO | automation | 🚀 Starting test: test_cart_page_shows_selected_item_details
+2026-04-13 11:04:50,936 | INFO | automation | 🛑 Ending test: test_cart_page_shows_selected_item_details
+2026-04-13 11:04:51,630 | INFO | automation | 🚀 Starting test: test_finish_order_shows_success_message
+2026-04-13 11:04:54,792 | INFO | automation | 🛑 Ending test: test_finish_order_shows_success_message
+2026-04-13 11:04:55,401 | INFO | automation | 🚀 Starting test: test_unauthorized_access_redirects_to_login_after_logout
+2026-04-13 11:04:58,134 | INFO | automation | 🛑 Ending test: test_unauthorized_access_redirects_to_login_after_logout
+2026-04-13 11:04:58,793 | INFO | automation | 🚀 Starting test: test_login_success
+2026-04-13 11:05:00,072 | INFO | automation | 🛑 Ending test: test_login_success
+2026-04-13 11:05:00,633 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user-secret_sauce-True-]
+2026-04-13 11:05:02,958 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user-secret_sauce-True-]
+2026-04-13 11:05:03,586 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 11:05:04,890 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user-wrong_password-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 11:05:05,451 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-13 11:05:07,573 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user--False-Epic sadface: Password is required]
+2026-04-13 11:05:08,189 | INFO | automation | 🚀 Starting test: test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-13 11:05:09,954 | INFO | automation | 🛑 Ending test: test_login_validation[-secret_sauce-False-Epic sadface: Username is required]
+2026-04-13 11:05:10,610 | INFO | automation | 🚀 Starting test: test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 11:05:13,835 | INFO | automation | 🛑 Ending test: test_login_validation[standard_user_long_username_exceeding_30-secret_sauce-False-Epic sadface: Username and password do not match any user in this service]
+2026-04-13 11:05:14,409 | INFO | automation | 🚀 Starting test: test_login_failure_blank_username
+2026-04-13 11:05:15,955 | INFO | automation | 🛑 Ending test: test_login_failure_blank_username
+2026-04-13 11:05:16,585 | INFO | automation | 🚀 Starting test: test_login_failure_username_length_exceeds_boundary
+2026-04-13 11:05:18,438 | INFO | automation | 🛑 Ending test: test_login_failure_username_length_exceeds_boundary
