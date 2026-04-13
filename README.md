@@ -73,8 +73,14 @@ This repository contains a Python + Selenium automation framework for the SauceD
 ## Project structure
 
 - `pages/` - Page Object Model classes
+  - `base_page.py` contains reusable Selenium helpers, explicit wait wrappers, and common page actions.
+  - Individual page classes such as `login_page.py`, `inventory_page.py`, `cart_page.py`, `checkout_info_page.py`, `checkout_overview_page.py`, and `checkout_complete_page.py` encapsulate element locators and user flows for each page.
 - `tests/` - Test modules
+  - `test_login.py` covers authentication flows, positive login and validation scenarios.
+  - `test_cart_checkout.py` covers shopping cart actions, checkout form validation, order completion, and logout/redirect behavior.
 - `testdata/` - Data-driven test data files
+  - CSV files store input and expected result data for parameterized tests.
+  - Separating test data from code makes it easier to maintain and expand test coverage.
 - `reports/screenshots/` - Failure screenshots
 - `reports/logs/` - Execution logs
 - `performance/` - Performance test artifacts
